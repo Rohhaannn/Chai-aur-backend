@@ -23,10 +23,10 @@ DB connects          config                     enum
 
 File Structure 
 
--> DB
--> Models
--> Controllers 
--> Routes
+-> DB => (contains code which actually connects to the DataBase)
+-> Models => (for eg. create a model and in that way we would like to keep our data)
+-> Controllers => (methods or functions)
+-> Routes => (navigation)
 -> Middlewares
 -> Utils
 -> More (Depends)
