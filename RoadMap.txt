@@ -25,7 +25,7 @@ Image 1 here
                         ErrorHandler               Fields
 
 
-File Structure 
+Folder Structure 
 
 -> DB => (contains code which actually connects to the DataBase)
 -> Models => (for eg. create a model and in that way we would like to keep our data)
