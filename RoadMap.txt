@@ -9,3 +9,24 @@ A DataBase : Mongo, MySQL, Postgres, SQLite
 Image 1 here
 
 ---------------------------------------------------
+
+=> A JavaScript based Backend
+  Data        File          Third Party (API)
+
+  -> A JS Runtime: Node.js / Deno / Bun
+  Package.json        .env          (Readme, git, lint, prettier etc)
+
+  index                App                    Constants
+DB connects          config                     enum
+                    Cookie, urlencode          DB-name
+
+
+File Structure 
+
+-> DB
+-> Models
+-> Controllers 
+-> Routes
+-> Middlewares
+-> Utils
+-> More (Depends)
