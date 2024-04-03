@@ -1,7 +1,9 @@
-A Programming lang: Java JavaScript PHP Golang Cpp
+Below are 2 major components that are required for backend : 
+
+1. A Programming lang: Java JavaScript PHP Golang Cpp
   On a framework
 
-A DataBase : Mongo, MySQL, Postgres, SQLite
+2. A DataBase : Mongo, MySQL, Postgres, SQLite
   ORM, ODM
 
 ---------------------------------------------------
@@ -10,15 +12,17 @@ Image 1 here
 
 ---------------------------------------------------
 
-=> A JavaScript based Backend
+=> A JavaScript based Backend => (ways to handle backend code)
   Data        File          Third Party (API)
 
   -> A JS Runtime: Node.js / Deno / Bun
   Package.json        .env          (Readme, git, lint, prettier etc)
 
-  index                App                    Constants
-DB connects          config                     enum
-                    Cookie, urlencode          DB-name
+-> src
+      index                App                    Constants
+    DB connects          config                     enum
+                        Cookie, urlencode          DB-name
+                        ErrorHandler               Fields
 
 
 File Structure 
@@ -27,6 +31,6 @@ File Structure
 -> Models => (for eg. create a model and in that way we would like to keep our data)
 -> Controllers => (methods or functions)
 -> Routes => (navigation)
--> Middlewares
--> Utils
+-> Middlewares => later
+-> Utils => (Utility for eg. sending mail, file upload)
 -> More (Depends)
