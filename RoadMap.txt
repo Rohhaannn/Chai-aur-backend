@@ -1,0 +1,11 @@
+A Programming lang: Java JavaScript PHP Golang Cpp
+  On a framework
+
+A DataBase : Mongo, MySQL, Postgres, SQLite
+  ORM, ODM
+
+---------------------------------------------------
+
+Image 1 here
+
+---------------------------------------------------
