@@ -5,11 +5,11 @@ const port = 4000
 
 
 app.get('/', (req, res)=>{
-  res.send("Hello World");
+  res.send("<h1> Hello World </h1>");
 })
 
 app.get('/twitter', (req, res) => {
-  res.send("I_am_rohan")
+  res.send("<h1> I_am_rohan </h1>")
 })
 
 app.get('/login', (req, res) => {
@@ -17,9 +17,14 @@ app.get('/login', (req, res) => {
 })
 
 app.get('/youtube', (req, res) => {
-  res.send('<h2> Chai Aue Code </h2>')
+  res.send('<h1> Chai Aur Code </h1>')
 })
 
+// app.listen(port, ()=>{
+//   console.log(`Example app listening on port ${port}`)
+// })
+
+//getting port from .env file
 app.listen(process.env.PORT, ()=>{
   console.log(`Example app listening on port ${port}`)
 })
